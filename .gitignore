@@ -1,0 +1,5 @@
+# credentials
+dbt_bigquery_creds.json
+
+# env folder
+dbt-env
