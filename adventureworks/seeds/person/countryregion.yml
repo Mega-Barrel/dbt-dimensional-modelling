@@ -4,6 +4,6 @@ seeds:
   - name: countryregion
     config: 
       column_types: 
-        countryregioncode: varchar
+        countryregioncode: string
         modifieddate: timestamp
-        name: varchar
+        name: string

@@ -5,6 +5,6 @@ seeds:
     config: 
       column_types: 
         businessentityid: integer
-        storename: varchar
+        storename: string
         salespersonid: integer
         modifieddate: timestamp
