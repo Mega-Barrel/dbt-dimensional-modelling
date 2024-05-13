@@ -14,9 +14,9 @@ stg_person AS (
         businessentityid,
         CONCAT(
             COALESCE(firstname, ''), 
-            ' ', 
+            ' ',
             COALESCE(middlename, ''), 
-            ' ', 
+            ' ',
             COALESCE(lastname, '')
         ) as fullname
     FROM
