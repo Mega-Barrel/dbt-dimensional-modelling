@@ -24,14 +24,13 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 # Configuring models
-# Full documentation: https://docs.getdbt.com/docs/configuring-models
 
 models:
   adventureworks:
     # Config indicated by + and applies to all files
-    staging:
+    dimensions:
       +materialized: view
-    intermediate:
+    fact:
       +materialized: view
-    mart:
+    one_big_table:
       +materialized: table
